@@ -1,0 +1,32 @@
+body{
+	background-color: #CCC;
+}
+
+.roundedCorners{
+	border-radius: 8px;
+	border: 1.2px solid black;
+}
+
+.paragraphText{
+	padding: 20px;
+	text-align: justify;
+	font-size: 1.2em;
+}
+
+.navOverride{
+	background-color: rgba(0,0,0,70%);
+}
+
+.navOverride ul li{
+	border-right: 1px solid white;
+	padding: 1px 15px;
+	text-align: center;
+}
+
+.navOverride ul li:last-child{
+	border-right: none;
+}
+
+.navOverride ul li a{
+	color: white;
+}
